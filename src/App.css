@@ -53,12 +53,12 @@
 .Gun1{
   height: 20vmin;
   position: fixed;
-  top:calc(height/2);
+  top:100px;
   left: 300px;
 }
 .Gun2{
   height: 20vmin;
   position: fixed;
-  top:calc(height/2);
+  top:100px;
   right: 300px;
 }

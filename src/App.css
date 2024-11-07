@@ -3,25 +3,26 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 30vmin;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .Gun1, .Gun2 {
+    animation: App-logo-spin infinite 5s linear;
   }
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url("https://img.freepik.com/free-vector/hand-drawn-flat-design-digital-camo-pattern_23-2149283158.jpg");
+  background-size:auto;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
@@ -35,4 +36,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.k1{
+  font-size: 150px;
+  position: fixed;
+  top:10px;
+  left: 50px;
+}
+.k2{
+  font-size: 150px;
+  position: fixed;
+  top:10px;
+  right: 50px;
+}
+.Gun1{
+  height: 20vmin;
+  position: fixed;
+  top:calc(height/2);
+  left: 300px;
+}
+.Gun2{
+  height: 20vmin;
+  position: fixed;
+  top:calc(height/2);
+  right: 300px;
 }

@@ -5,18 +5,15 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          INTO Company
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1 class="k1">大<br/>韓</h1>
+        <h1 class="k2">民<br/>國</h1>
+        <img src="https://cdn-icons-png.flaticon.com/512/8147/8147536.png" className="Gun1" />
+        <img src="https://cdn-icons-png.flaticon.com/512/8147/8147536.png" className="Gun2" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_South_Korea.svg" className="App-logo" />
+        <br/>
+        <br/>
+        <br/>
+        <h1> 안 되면 되게 하라 </h1>
       </header>
     </div>
   );
